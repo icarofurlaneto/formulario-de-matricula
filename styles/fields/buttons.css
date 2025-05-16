@@ -1,30 +1,30 @@
 button {
-    all: unset;
-    font-weight: 500;
-    color: var(--text-highlight);
-    padding: .75rem 1.5rem;
-    border-radius: .5rem;
+  all: unset;
+  font-weight: 500;
+  color: var(--text-highlight);
+  padding: 0.75rem 1.5rem;
+  border-radius: 0.5rem;
 
-    cursor: pointer;
+  cursor: pointer;
 
-    &.btn-primary {
-        color: white;
-        background-color: #E43A12;
+  &.btn-primary {
+    color: white;
+    background-color: #e43a12;
 
-        &:hover,
-        &:focus {
-            background-color: #F3541C;
-        }
+    &:hover,
+    &:focus {
+      background-color: #f3541c;
     }
+  }
 
-    &.btn-secondary {
-        margin-left: auto;
-        border: 2px solid var(--text-highlight);
+  &.btn-secondary {
+    margin-left: auto;
+    border: 2px solid var(--text-highlight);
 
-        &:hover,
-        &:focus {
-            color: #E43A12;
-            outline: .25rem solid var(--surface-secondary);
-        }
+    &:hover,
+    &:focus {
+      color: #e43a12;
+      outline: 0.25rem solid var(--surface-secondary);
     }
+  }
 }
