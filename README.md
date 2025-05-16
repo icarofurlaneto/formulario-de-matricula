@@ -14,12 +14,6 @@ Você pode acessá-lo diretamente pelo GitHub Pages:
 - Layout responsivo e acessível.
 - Validação de campos básica via HTML5.
 
-## 📷 Captura de Tela
-
-![Screenshot do Formulário de Matrícula](screenshot.png)
-
-> 💡 Salve a imagem acima como `screenshot.png` na raiz do repositório para que apareça corretamente.
-
 ## 🚀 Tecnologias Utilizadas
 
 - HTML5
