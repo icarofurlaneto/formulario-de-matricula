@@ -53,3 +53,26 @@ img {
 .flex-2 {
     flex: 2;
 }
+
+/* Ajustes responsivos globais */
+@media (max-width: 600px) {
+  html {
+    font-size: 90%;
+  }
+  body {
+    overflow: auto;
+  }
+  h1, h2 {
+    font-size: 1.2rem;
+  }
+  .flex {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+}
+
+@media (max-width: 1024px) {
+  html {
+    font-size: 95%;
+  }
+}

@@ -25,3 +25,21 @@ fieldset + fieldset {
     display: flex;
     gap: 1rem;
 }
+
+@media (max-width: 600px) {
+    form {
+        margin-top: 1.5rem;
+    }
+    fieldset {
+        gap: 1rem;
+    }
+    legend {
+        margin-bottom: 1rem;
+        font-size: 1rem;
+    }
+    .actions-wrapper {
+        margin-top: 1.5rem;
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+}

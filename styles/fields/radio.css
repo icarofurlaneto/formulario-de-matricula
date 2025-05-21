@@ -54,3 +54,13 @@ label + .radio-wrapper {
         }
     }
 }
+
+@media (max-width: 600px) {
+    .radio-wrapper {
+        grid-template-columns: 1fr;
+        gap: 0.5rem;
+    }
+    .radio-inner {
+        padding: 1rem 0.5rem 0.5rem;
+    }
+}
